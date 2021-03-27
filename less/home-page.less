@@ -2,22 +2,24 @@
     font-family: 'Hind', sans-serif;
 
     header {
+        margin-bottom: 40px;
         .heading {
             .flex-center();
             flex-direction: column;
 
         h1 {
             font-size: 5.4rem;
-            margin-top: 150px;
+            font-weight: 700;
+            margin-top: 80px;
             color: black;
             text-align: center;
         }
         h4 {
-            font-size: 2rem;
+            font-size: 2.4rem;
             margin-top: 40px;
             color: black;
             text-align: center;
-            line-height: 2.4rem;
+            line-height: 2.6rem;
 
             @media @mobile {
                 padding: 0 30px;
@@ -45,12 +47,12 @@
     }
         main {
             width: 80%;
-            background-color: white;
+            background-color: @puce;
             font-size: 1.8rem;
             margin: 0 auto;
             padding: 0 40px;
             border-radius: 6px;
-            border: 1px solid black;
+            box-shadow: 0px 2px 20px #C38DAE;
 
             .intro {
                 .flex-center();
@@ -62,7 +64,7 @@
                     font-size: 3rem;
                     margin-top: 70px;
                     padding-bottom: 50px;
-                    border-bottom: 2px solid @middle-blue-green;
+                    border-bottom: 4px solid @middle-blue-green;
                     line-height: 3.5rem;
                 }
 
@@ -76,6 +78,7 @@
                 img {
                     width: 100%;
                     height: auto;
+                    border-radius: 6px;
 
                     @media @mobile {
                         width: 100%;
@@ -112,7 +115,7 @@
                         height: auto;
                         margin: 10px;
                         padding-bottom: 40px;
-                        border-bottom: 2px solid @middle-blue-green;
+                        border-bottom: 4px solid @middle-blue-green;
                     }
 
                     h3 {
@@ -136,14 +139,14 @@
                     }
                 }
                 .f1, .f2 {
-                    border-right: 2px solid @middle-blue-green;
+                    border-right: 4px solid @middle-blue-green;
 
                     @media @mobile {
                         border-right: none;
                     }
                 }
                 .f1, .f3 {
-                    border-bottom: 2px solid @middle-blue-green;
+                    border-bottom: 4px solid @middle-blue-green;
 
                 }
                 .f4 {
@@ -194,6 +197,9 @@
                         
                         button {
                             .btn();
+                            &:hover {
+                                background-color: @verdigris;
+                            }
                         }
                     }
                     
@@ -209,15 +215,13 @@
                     font-size: 2.6rem;
                     margin-top: 40px;
                     margin-bottom: 30px;
-                    color: @verdigris;
-                    text-shadow: black 1px 0 5px;
+                    color: #000;
                 }
 
                 p {
                     font-size: 1.8rem;
                     margin-bottom: 20px;
-                    color: @verdigris;
-                    text-shadow: black 1px 0 5px;
+                    color: #000;
                 }
                 button {
                     .btn();
