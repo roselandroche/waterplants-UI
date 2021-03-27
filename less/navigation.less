@@ -39,7 +39,9 @@
         nav {
             display: flex;
             justify-content: flex-end;
-            align-items: center;
+            align-items: flex-end;
+            background-color: @puce;
+            height: 80px;
 
             @media @mobile {
                 justify-content: center;
@@ -56,18 +58,21 @@
             a {
                 color: black;
                 text-decoration: none;
-                padding: 15px;
-                font-size: 1.6rem;
+                padding: 12px 24px 8px 24px;
+                margin: 0 6px 12px 6px;
+                font-size: 1.8rem;
+                border: 2px solid @puce;
+                &:hover {
+                    color: #fff;
+                    border: 2px solid #c7acb5;
+                    border-radius: 6px;
+                }
 
                 @media @mobile {
                     font-size: 2rem;
                     width: 80%;
                     text-align: center;
 
-                    &:hover {
-                        color: @verdigris;
-                        background-color: white;
-                    }
                 }
             }
         }
