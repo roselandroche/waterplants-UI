@@ -139,7 +139,7 @@ html {
   .container header .mobile-nav {
     display: inline-block;
     width: 100%;
-    background-color: white;
+    background-color: #fff;
     height: 50px;
     position: relative;
   }
@@ -152,11 +152,11 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #85CDCA;
+    background-color: #85cdca;
     border-radius: 100%;
     height: 35px;
     width: 35px;
-    color: white;
+    color: #fff;
     margin: 5px;
   }
   .container header .mobile-nav .dropbtn:hover {
@@ -193,7 +193,7 @@ html {
 }
 .container header nav a:hover {
   color: #fff;
-  border: 2px solid #c7acb5;
+  border: 2px solid hsl(341, 31%, 80%);
   border-radius: 6px;
 }
 @media (max-width: 500px) {
@@ -219,13 +219,13 @@ html {
   font-size: 5.4rem;
   font-weight: 700;
   margin-top: 80px;
-  color: black;
+  color: #000;
   text-align: center;
 }
 .container header .heading h4 {
   font-size: 2.4rem;
   margin-top: 40px;
-  color: black;
+  color: #000;
   text-align: center;
   line-height: 2.6rem;
 }
@@ -274,7 +274,7 @@ html {
   }
 }
 .container header .heading .top-btn button:hover {
-  background-color: #c38d9e;
+  background-color: hsl(341, 31%, 80%);
 }
 @media (max-width: 500px) {
   .container header .heading .top-btn button:hover {
@@ -305,7 +305,7 @@ html {
   font-size: 3rem;
   margin-top: 70px;
   padding-bottom: 50px;
-  border-bottom: 4px solid #85CDCA;
+  border-bottom: 4px solid hsl(341, 31%, 80%);
   line-height: 3.5rem;
 }
 .container main .intro p {
@@ -362,7 +362,7 @@ html {
     height: auto;
     margin: 10px;
     padding-bottom: 40px;
-    border-bottom: 4px solid #85CDCA;
+    border-bottom: 4px solid hsl(341, 31%, 80%);
   }
 }
 .container main .features .f1 h3,
@@ -399,7 +399,7 @@ html {
 }
 .container main .features .f1,
 .container main .features .f2 {
-  border-right: 4px solid #85CDCA;
+  border-right: 4px solid hsl(341, 31%, 80%);
 }
 @media (max-width: 500px) {
   .container main .features .f1,
@@ -409,7 +409,7 @@ html {
 }
 .container main .features .f1,
 .container main .features .f3 {
-  border-bottom: 4px solid #85CDCA;
+  border-bottom: 4px solid hsl(341, 31%, 80%);
 }
 .container main .features .f4 {
   margin-bottom: 30px;
@@ -483,7 +483,7 @@ html {
   }
 }
 .container main .links .info-box .btn-wrapper button:hover {
-  background-color: #c38d9e;
+  background-color: hsl(341, 31%, 80%);
 }
 @media (max-width: 500px) {
   .container main .links .info-box .btn-wrapper button:hover {
@@ -494,7 +494,7 @@ html {
   }
 }
 .container main .links .info-box .btn-wrapper button:hover {
-  background-color: #4EB4A3;
+  background-color: #85cdca;
 }
 .container .bottom-block footer {
   display: flex;
@@ -538,7 +538,7 @@ html {
   }
 }
 .container .bottom-block footer button:hover {
-  background-color: #c38d9e;
+  background-color: hsl(341, 31%, 80%);
 }
 @media (max-width: 500px) {
   .container .bottom-block footer button:hover {
